@@ -2,7 +2,7 @@
 :root {
   --main-font-family: "Inter-Variable";
   --text-font-weight: 400;
-  --title-font-weight: 700;
+  --title-font-weight: 785;
   --accent-font-family: "PressStart2P";
   --header-inline-size: clamp(375px, 16.0352rem + 30.5164vw, 700px);
   --background-color: #fff;
