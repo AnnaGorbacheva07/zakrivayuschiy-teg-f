@@ -151,7 +151,10 @@
   text-transform: none;
 }
 .card__content {
-  padding: 25px;
+  padding-block-start: 25px;
+  padding-inline-start: 25px;
+  padding-inline-end: 25px;
+  padding-block-end: 21px;
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -215,8 +218,8 @@
 }
 
 .save__button {
-  inline-size: clamp(19.125rem, 18.4868rem + 2.723vw, 20.9375rem);
-  block-size: clamp(51px, 5.9762rem + -3.0986vw, 84px);
+  inline-size: clamp(19.375rem, 18.7808rem + 2.5352vw, 21.0625rem);
+  block-size: clamp(55px, 5.8882rem + -2.723vw, 84px);
   align-self: center;
   display: flex;
   gap: 8px;
